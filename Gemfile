@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.0.beta2'
 
-gem 'sass-rails'
+ruby '2.1.3'
+
+gem 'sass-rails', '5.0.0.beta1'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
@@ -20,5 +22,6 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
